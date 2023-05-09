@@ -42,16 +42,6 @@ body {
   padding: 10px;
 }
 
-.slider .prev,
-.slider .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  color: white;
-  cursor: pointer;
-}
-
 .slider .prev {
   display: flex;
   background-color: #57b4f9;
