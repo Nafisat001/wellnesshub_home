@@ -5,7 +5,7 @@ import quote2 from './pic/image-2.jpg';
 import quote3 from './pic/image-3.jpg';
 import quote4 from './pic/image-4.jpg';
 import quote5 from './pic/images-5.jpg';
-//slideshow images
+//slideshow images as non changeable array
 const QUOTES = [
   { src: quote1, alt: 'Quote 1' },
   { src: quote2, alt: 'Quote 2' },
