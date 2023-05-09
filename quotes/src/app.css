@@ -44,16 +44,20 @@ body {
 
 .slider .prev {
   display: flex;
-  background-color: #57b4f9;
+  position: absolute;
+  left: 250px;
   top: 50%;
-  left: 20px;
+  transform: translateY(-50%);
+  background-color: #57b4f9;
   color: #02070a;
 }
 
 .slider .next {
   display: flex;
-  background-color: #57b4f9;
+  position: absolute;
+  right: 250px;
   top: 50%;
-  right: 20px;
+  transform: translateY(-50%);
+  background-color: #57b4f9;
   color: #02070a;
 }
